@@ -1,0 +1,34 @@
+Dados usados para previsao:
+
+estatisticas desempenho:
+- gols marcados por jogo
+- gols sofridos por jogo
+
+momentum:
+- ultimos 5 jogos (W/D/L)
+- gols marcados/sofridos nos ultimos jogos
+- clean sheets
+
+mando de campo:
+- desempenho de casa (gols, vitorias)
+- desemepenho fora de casa (gols, vitorias, derrotas)
+
+
+
+
+
+
+Prever total de gols (over/under) com base em:
+
+- Média de gols marcados + sofridos
+- xG + xGA 
+- xG => expected goals: Gols esperados com base na qualidade das chances.
+- xGA => expected goals against: Gols esperados contra, também baseado em qualidade de chances sofridas.
+- Eficiência ofensiva/defensiva
+- Eficiência ofensiva: golspor finalizacao
+- Eficiencia defensiva: gols sofridos por finalizacao do adversario
+
+
+Prever vencedor com base em:
+
+- xG recente, vantagem de mando, lesões, confronto direto
