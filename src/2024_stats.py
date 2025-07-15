@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # Carregamento dados filtrados somente para o campeonato brasileiro 2024
-df = pd.read_csv(r'C:\COMP_UEL\Estatistica\dataset\campeoanato-brasileiro-2024.csv')
+df = pd.read_csv(r'C:\COMP_UEL\Estatistica\Seminario_estatistica\dataset\campeonato-brasileiro-2024.csv')
 
 # Definicao dos times participantes do campeonato brasileiro 2024
 times = ['Flamengo', 'Palmeiras', 'Botafogo-RJ', 'Fortaleza', 'Internacional',
@@ -37,4 +37,4 @@ for time in times:
     df_stats.loc[df_stats['Time'] == time, 'Média Gols Sofridos'] = gols_sofridos / total_jogos if total_jogos else 0
 
 # Salvamento do dataframe dos stats
-df_stats.to_csv(r'C:\COMP_UEL\Estatistica\dataset\2024_goal_stats.csv', index=False)
+df_stats.to_csv(r'C:\COMP_UEL\Estatistica\Seminario_estatistica\dataset\2024_goal_stats.csv', index=False)
