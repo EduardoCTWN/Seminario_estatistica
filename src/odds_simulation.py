@@ -30,8 +30,8 @@ def calculo_odds_total_goals(timeA, timeB, over_under):
 
 
 
-    print(f"Probabilidade Under 2.5: {prob_under:.2%}")
-    print(f"Probabilidade Over 2.5: {prob_over:.2%}")
+    print(f"Probabilidade Under {over_under}: {prob_under:.2%}")
+    print(f"Probabilidade Over {over_under}: {prob_over:.2%}")
 
     print(f"Odds Under {over_under}: {round(odds_under, 2)}")
     print(f"Odds Over {over_under}: {round(odds_over, 2)}\n")
