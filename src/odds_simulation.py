@@ -1,6 +1,7 @@
 import pandas as pd
 import formulas_estatistica as fe
 
+# Calcular odds e probabilidades de total de gols entre time A e time B
 def calculo_odds_total_goals(timeA, timeB, over_under):
     df = pd.read_csv(r'C:\COMP_UEL\Estatistica\Seminario_estatistica\dataset\2024_goal_stats.csv')
 
@@ -38,20 +39,8 @@ def calculo_odds_total_goals(timeA, timeB, over_under):
 
 
 
-
+# Calcular probabilidades de vitoria/empate/derrota utilizando media de gols do time A e time B
 def calcular_probabilidades_poisson(media_gols_A, media_gols_B):
-    """
-    Calcula as probabilidades de vitória, empate e derrota para o time A
-    usando o modelo de Poisson bivariado.
-    
-    Parâmetros:
-    - media_gols_A: gols esperados do time A
-    - media_gols_B: gols esperados do time B
-    - max_gols: número máximo de gols considerados por time
-    
-    Retorna:
-    - dicionário com probabilidades de vitória A, empate, vitória B
-    """
 
     max_gols = 7
     prob_vitoria_A = 0
@@ -75,6 +64,7 @@ def calcular_probabilidades_poisson(media_gols_A, media_gols_B):
     }
 
 
+# Calcular odds e probabilidades de vitoria/empate/derrota entre um time A e time B
 def calculo_odds_resultado(timeA, timeB):
     df = pd.read_csv(r'C:\COMP_UEL\Estatistica\Seminario_estatistica\dataset\2024_goal_stats.csv')
 

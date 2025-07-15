@@ -1,7 +1,7 @@
 import odds_simulation as os
 
 # 1. Flamengo x São Paulo
-print("--- Flamengo x Sao Paulo ---\n")
+print("\n--- Flamengo x Sao Paulo ---\n")
 os.calculo_odds_total_goals('Flamengo', 'Sao Paulo', 3.5)
 os.calculo_odds_resultado('Flamengo', 'Sao Paulo')
 
