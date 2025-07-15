@@ -38,4 +38,4 @@ def calculo_odds_total_goals(timeA, timeB, over_under):
 
 
 
-calculo_odds_total_goals('Flamengo', 'Fluminense', 2.5)
+calculo_odds_total_goals('Flamengo', 'Palmeiras', 1.5)
