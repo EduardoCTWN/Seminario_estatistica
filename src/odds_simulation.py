@@ -11,7 +11,7 @@ def calculo_odds_total_goals(timeA, timeB, over_under):
     gols_esperados_A = (tabela_time_A['Média Gols Feitos'] + tabela_time_B['Média Gols Sofridos']) / 2
     gols_esperados_B = (tabela_time_B['Média Gols Feitos'] + tabela_time_A['Média Gols Sofridos']) / 2
 
-    max_gols = 7  # até 6 gols para simplificação
+    max_gols = 7  # até 7 gols para simplificação
     prob_total_gols = {}
 
     for gols_A in range(max_gols + 1):
